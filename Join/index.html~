@@ -53,13 +53,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a  href="Join/">Join Us</a>
+                        <a  href="https://UBC-Snowbots.github.io/Join/">Join Us</a>
                     </li>
                     <li>
-                        <a  href="Roster/">The Team</a>
+                        <a  href="https://UBC-Snowbots.github.io/Roster/">The Team</a>
                     </li>
                                         <li>
-                        <a  href="Sponsors/">Sponsors</a>
+                        <a  href="https://UBC-Snowbots.github.io/Sponsors/">Sponsors</a>
                     </li>
 										<!--
               <li>
@@ -84,8 +84,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Snowbots</h1>
-                        <p class="intro-text">The Future Is Autonomous.<br>@UBC With Love.</p>
+                        <h1 class="brand-heading">Join UBC Snowbots</h1>
+                        <p class="intro-text"><!--The Future Is Autonomous.<br>@UBC With Love.--></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -99,60 +99,133 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Snowbots</h2>
-                <p>UBC Snowbots builds autonomous robots that navigate through complex terrain to reach GPS waypoints. This year, Snowbots became the first team to represent UBC in the Intelligent Ground Vehicle Competition, a leading robot race hosting over 30 elite teams from all over the world including Turkey, India, and Japan.The robots are completely autonomous vehicles that are equipped with various sensors that can navigate to GPS waypoints dodging obstacles and following paths completely by themselyves. This multi-disciplinary feat calls for the integration of input from mechanical engineers, electrical engineers, and software programmers in order to design an effective vehicle that is capable of traversing the course both physically and on a software level.</p>
+                <h2>Recruitment Process:</h2>
+                <p>Our main recruitment season is at the beginning of each year. We run booths at Imagine Day and an Orientation Session on the first Saturday of the school year. During this time you can meet our senior team members, see our robot in live action, and learn more about the team.</p>
+                <p>Students interested in joining the team are required to complete a challenge related to the sub-team they want to join. These challenges are designed to be fair such that any inexperienced student can finish, but will take some determination and perseverance to complete.</p>
+                <p>Check out our <a href="https://www.facebook.com/UBC.Snowbots?fref=ts">facebook page</a> for information about upcoming recruitment events at the beginning of September.</p>
             </div>
         </div>
     </section>
-
-    <!-- Team Section -->
-    <section id="team" class="content-section text-center">
-        <div class="download-section">
+<hr>
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Snowbots</h2>
+                <p>We are a student team dedicated to the research and development of autonomous ground vehicles.Our robots are equipped with various sensors which provides input about the environment, allowing it to navigate between set GPS waypoints in the shortest time possible, while avoid obstacles and staying within bounds of the course.</p>
+                <p>We are looking for ambitious students who wants to learn and contribute their skills in constructing an effective vehicle in the areas of mechanical, electrical, and software designs.
+</p>
+            </div>
+        </div>
+    </section>
+<hr>
+    <!-- About Elsa -->
+    <section id="Sponsors" class="content-section text-center">
             <div class="container-fluid">
-                <div class="col-lg-8 col-lg-offset-2">
-								
+            				<h2> The Sub-Teams </h2>
+            				<br><br>
+                <div class="col-lg-10 col-lg-offset-2">
+				<!--Section Header-->
+
+				<!--Section 1-->
+
+				<div class = "row">
+					<div class = "col-md-6">
+									<h4>Admin</h4>
+						<p>The admin sub-team keeps our team running smoothly; they organize meetings, events and travel plans for competition. They are also responsible for all of our funding and sponsor relations. If you are interested in gaining some communications skills, enjoy writing and organizing, this is the team for you!
+</p>
+					<p>The admin team is currently interested in taking on members with some experience with web design, Photoshop, Publisher etc. 
+</p>
+					<p>Status: Open</p>
+					</div>
+					<div class = "col-md-4">
+						<br>
+						<div class = "thumbnail">
+							<img src="../img/Join-1.JPG" alt="">
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<!--Section 2-->
+
+				<div class = "row">
+					<div class = "col-md-4">
+						<br>
+						<div class ="thumbnail">
+							<img src="../img/Join-2.JPG">
+						</div>
+					</div>
+					<div class = "col-md-6">
+									<h4>Electrical</h4>
+					<p>The electrical team takes care of all of the wiring and firmware on the robot. They ensure that signals from our robot’s sensors are delivered to the software, and provide power to the motors. They also make sure our robot does not catch on fire! If you are interested in power management, or like working with digital logic, join electrical! 
+</P>
+					<p>The electrical team is no longer taking in new members for the 2015/16 year. 
+</p>
+					<p>Status: Full</p>
+					</div>
+				</div><br><br>
+				<!--Section 3-->
+
+				<div class = "row">
+					<div class = "col-md-6">
+						<h4>Mechanical</h4>
+						<p>The mechanical team takes care of designing, machining and constructing the robot. They design the drive-train to make sure that the robot’s had enough power to make it up hills and across tricky terrain. They also design the chassis to hold the computer and the robot’s many sensors. Lots of SolidWorks and machining involved!</p>
+						<p>The mechanical team is no longer taking in new members for the 2015/16 year. </p>
+						<p>Status: Full</p>
+					</div>
+					<div class = "col-md-4">
+						<br><br><br><br>
+						<div class = "thumbnail">
+							<img src="../img/Join-3.JPG">
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<!--Section 4 -->
+				
+				<div class = "row">
+					<div class = "col-md-4">
+						<br>
+						<div class ="thumbnail">
+							<img src="../img/Join-4.JPG">
+						</div>
+					</div>
+					<div class = "col-md-6">
+									<h4>Software</h4>
+					<p> This is our biggest sub-team with the most amount of work. The software team writes code to take in information about the robot’s surroundings and makes decisions about where the to go next. If you are interested in working in AI, mapping, computer vision, networking or systems integration, software has projects for you!  Knowledge of C++, Python, Linux, and ROS is an asset, but not required.</p>
+					<p>Software accepts interested members on a rolling basis. To join, complete the FizzBuzzPrime and ROS challenges at: http://ubc-snowbots.github.io/Tutorials/ and send us your solution!
+ 
+</p>
+					<p>Status: Open</p>
+					</div>
+				</div><br><br>
+				<!--End of body-->
                 </div>
             </div>
-        </div>
     </section>
-<section id="sponsors" class="content-section text-center">
-        <div class="project-section">
-            <div class="container">
-                <div class="body">
-                    <h2>Sponsors</h2>
-		    <div class = "row">
-				<div class = "col-md-4">
-					<h4>UBC Engineering</h4>
-					<p>The University of British Columbia is our main sponsor, housing the team and the robot</p>
-				</div>
-			<div class = "col-md-4">
-				<h4>Swift Navigation</h4>
-				<p>Aiming to provide affordable and accurate GPS modules. Swift Nav provide us with our GPS modules</p>
-			</div>
-				<div class = "col-md-4">
-					<h4>Venom</h4>
-					<p>Experts at recharable power systems. Venom is our provider of Li-po batteries</p>
-				</div>
-              </div>
-		   <div class = "row">
-			<div class = "col-md-4">
-				<h4>Viking Profiles</h4>
-				<p>Viking Profiles, waterjet cutting since 1997, producer of our chassis</p>
-			</div>
-			<div class = "col-md-4">
-				<h4>Shell</h4>
-				<p>Being a mining engineering team, Shell's support for the team helped make the robot possible</p>
-			</div>
-			<div class = "col-md-4">
-				<h4>Fluor</h4>
-				<p>Thanks to Fluor's donations this year, Snowbots was able to complete the robot and head off to competition with ease.</p>
-			</div>
-                    </div>
+    <hr>
+    <!--FAQ-->
+    <section id="FAQ" class="container content-section text-center">
+    	<h2>FAQ</h2>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4>Q: I have no experience with anything, will I be able to make it onto the team?
+</h4>
+                <p>A: Yes! But you will need to complete either the Software, Electrical or Mechanical Challenges. You can complete these in your own time and get help from our current members during the first few meetings.</p>
+                <h4>Q: I have missed the Orientation Meeting, can I still join?
+</h4>
+                <p>A: Check this page, we will update it with the status of which teams are still accepting members. 
+</p>
+                <h4>Q: I don’t know which sub-team I want to join, what do I do?
+</h4>
+                <p>A: Pick one sub-team that sounds interesting to you and go with it. We are somewhat flexible with our members transferring between teams, so if you don’t like it you can transfer. Also try talking to some of our current members about the different sub-teams you are interested in. </p>
+                <h4>Q: I am not in Engineering, can I still join the team?
+</h4>
+                <p>A: Yes, we accept students from all faculties, all you need is a keen interest in robotics and a keen desire to learn! </p>
             </div>
         </div>
     </section>
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+<section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Snowbots</h2>
@@ -182,19 +255,19 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5yKLhVTvvpUrobkzxIUyR2VAujTgYQF4"></script>
+    <script type="../text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5yKLhVTvvpUrobkzxIUyR2VAujTgYQF4"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="../js/grayscale.js"></script>
 
 </body>
 
