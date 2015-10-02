@@ -12,10 +12,10 @@
     <title>UBC Snowbots</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/index_main.css" rel="stylesheet">
+    <link href="sponsors_main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -53,18 +53,14 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a  href="Join/">Join Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">The Team</a>
+                        <a  href="Roster/">The Team</a>
                     </li>
                                         <li>
-                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                        <a  href="Sponsors/">Sponsors</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-										<li><a href = "http://ubc-snowbots.github.io/Tutorials/">New Members</a></li>
 										<!--
               <li>
                         <a class="page-scroll" href="">Gallery</a>
