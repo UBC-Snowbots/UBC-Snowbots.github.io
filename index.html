@@ -1,259 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>UBC Snowbots</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/index_main.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<title>UBC Snowbots</title>
+	
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Custom CSS -->
+	<link href="css/index_main.css" rel="stylesheet">
+	
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container">
+		
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+				
+				<a class="navbar-brand page-scroll" href="#page-top">
+					<i class="fa fa-play-circle"></i>  <span class="light">UBC</span> Snowbots
+				</a>
+			</div><!-- /.navbar-header -->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">UBC</span> Snowbots
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a  href="https://UBC-Snowbots.github.io/Join/">Join Us</a>
-                    </li>
-                    <li>
-                        <a  href="https://UBC-Snowbots.github.io/Roster/">The Team</a>
-                    </li>
-                                        <li>
-                        <a  href="https://UBC-Snowbots.github.io/Sponsors/">Sponsors</a>
-                    </li>
-      
-										<!--
-              <li>
-                        <a class="page-scroll" href="">Gallery</a>
-                    </li>
-                                        <li>
-                        <a class="page-scroll" href="">News</a>
-                    </li>
-                   <li>
-                        <a class="page-scroll" href="">Donate</a>
-                    </li> -->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Snowbots</h1>
-                        <p class="intro-text">The Future Is Autonomous.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Snowbots</h2>
-                <p>We are a student team dedicated to the research and development of autonomous ground vehicles.Our robots are equipped with various sensors which provides input about the environment, allowing it to navigate between set GPS waypoints in the shortest time possible, while avoid obstacles and staying within bounds of the course.</p>
-                <p>We are looking for ambitious students who wants to learn and contribute their skills in constructing an effective vehicle in the areas of mechanical, electrical, and software designs.
-</p>
-            </div>
-        </div>
-    </section>
-<hr>
-    <!-- About Elsa -->
-    <section id="Sponsors" class="content-section text-center">
-            <div class="container-fluid">
-                <div class="col-lg-10 col-lg-offset-2">
-				<!--Section Header-->
-				<!--Section 1-->
-
-				<div class = "row">
-					<div class = "col-md-6">
-									<h4>Our Robot</h4>
-						<p>Our robot uses a LIDAR laser scanner for detecting physical objects and several webcams for detecting colored boundaries painted on the grounds.
-Internally, our camera vision system uses OpenCV to provide fast image processing and capturing techniques, which is essential for operating in performance critical situations.</p>
-					</div>
-					<div class = "col-md-4">
-						<br>
-						<div class = "thumbnail">
-							<img src="img/Sensors.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<br><br>
-				<!--Section 2-->
-
-				<div class = "row">
-					<div class = "col-md-4">
-						<br>
-						<div class ="thumbnail">
-							<img src="img/Software.jpg">
-						</div>
-					</div>
-					<div class = "col-md-6">
-									<h4>Software</h4>
-					<p>The software portion of our robot is primarily developed in C++, using the Robot Operating System (ROS) framework, with some specific portions written in Python and C.</P>
-					</div>
-				</div><br><br>
-				<!--Section 3-->
-
-				<div class = "row">
-					<div class = "col-md-6">
-						<h4>Competition</h4>
-						<p>In the past we’ve competed in the International Autonomous Robot Racing Challenge ( IARRC) where we:
-						<p>
-						In 2015 we successfully to rank 4th in design and 5th in the IOP network challenge.</p><p>
-In 2014 we complete the qualifier course.</p>
-</p>
-						<p>Since 2014 we’ve switched our main competition to the Intelligent Ground Vehicle Competition (IGVC), an international-scale competition hosted by Oakland University in Michigan. Using the experience we’ve gained from our past competition, we aim to solve new challenges on autonomous navigation. in addition to competing against over 40 teams from all over the world including Australia, India, and Japan.
-</p>
+				
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<li class="hidden"><a href="#page-top"></a></li>
+					<li><a href="https://UBC-Snowbots.github.io/Join/">Join Us</a></li>
+					<li><a href="https://UBC-Snowbots.github.io/Roster/">The Team</a></li>
+					<li><a href="https://UBC-Snowbots.github.io/Sponsors/">Sponsors</a></li>
 						
+					<!--
+					<li><a class="page-scroll" href="">Gallery</a></li>
+					<li><a class="page-scroll" href="">News</a></li>
+					<li><a class="page-scroll" href="">Donate</a></li>
+					-->
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+	
+	<!-- Intro Header -->
+	<header class="intro">
+		<div class="intro-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="brand-heading">Snowbots</h1>
+						<p class="intro-text">The Future Is Autonomous.</p>
+						<a href="#about" class="btn btn-circle page-scroll">
+							<i class="fa fa-angle-double-down animated"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!-- About the Team Section -->
+	<section id="about" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+			<h2>We are Snowbots!</h2>
+			<p>
+				We are a student team dedicated to the research and development of autonomous ground vehicles. 
+				Our robots are equipped with various sensors which provides input about the environment, 
+				allowing it to navigate between set GPS waypoints in the shortest time possible, 
+				while avoid obstacles and staying within bounds of the course.
+			</p>
+			<p>
+				We are looking for ambitious students who wants to learn and contribute their skills in constructing 
+				an effective vehicle in the areas of mechanical, electrical, and software designs.
+			</p>
+			</div>
+		</div>
+	</section>
+	<hr>
+	
+	<!-- About Elsa -->
+	<section id="Sponsors" class="content-section text-center">
+		<div class="container-fluid">
+		<div class="col-lg-10 col-lg-offset-2">
+		<!--Section Header-->
+
+		<!--Section 1-->		
+		<div class = "row">
+			<div class = "col-md-6">
+				<h4>Our current robot</h4>
+				<p>
+					Our robot uses a LIDAR laser scanner for detecting physical objects and several webcams for 
+					detecting coloured boundaries painted on the grounds.
+					Internally, our camera vision system uses OpenCV to provide fast image processing and capturing techniques, 
+					which is essential for operating in performance critical situations.
+				</p>
+			</div>
+		
+			<div class = "col-md-4">
+				<div class = "thumbnail">
+					<img src="img/Sensors.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+	
+		<!--Section 2-->	
+		<div class = "row">
+			<div class = "col-md-4">
+				<div class ="thumbnail">
+					<img src="img/Software.jpg">
+				</div>
+			</div>
+			
+			<div class = "col-md-6">
+				<h4>Software</h4>
+				<p>
+					The software portion of our robot is primarily developed in C++, using the Robot Operating System (ROS) framework, 
+					with some specific portions written in Python and C.
+				</p>
+			</div>
+		</div>
+		
+		<br><br>
+	
+		<!--Section 3-->	
+		<div class = "row">
+			<div class = "col-md-6">
+				<h4>Competition</h4>
+				<p>
+					In the past we’ve competed in the International Autonomous Robot Racing Challenge ( IARRC) where we:
+				
+					In 2015 we successfully to rank 4th in design and 5th in the IOP network challenge.
+					In 2014 we complete the qualifier course.
+				</p>
+				<p>
+					Since 2014 we’ve switched our main competition to the Intelligent Ground Vehicle Competition (IGVC), 
+					an international-scale competition hosted by Oakland University in Michigan. 
+					Using the experience we’ve gained from our past competition, we aim to solve new challenges on autonomous navigation, 
+					in addition to competing against over 40 teams from all over the world including Australia, India, and Japan.
+				</p>
+				
+			</div>
+			<div class = "col-md-4">
+				<br><br><br><br>
+				<div class = "thumbnail">
+					<img src="img/Competition.jpg">
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+		
+		</div>
+		</div>
+	</section>
+	
+	<hr>
+	
+	<!--About Sponsors -->
+	<section id="Sponsors" class="content-section text-center">
+		<div class="project-section">
+			<div class="container">
+				<div class="body">
+				<h2>Sponsors</h2>
+				<div class = "row">
+					<div class = "col-md-4">
+					<h4>UBC Engineering</h4>
+						<p>The University of British Columbia is our main sponsor, housing the team and the robot</p>
 					</div>
 					<div class = "col-md-4">
-						<br><br><br><br>
-						<div class = "thumbnail">
-							<img src="img/Competition.jpg">
-						</div>
+						<h4>Swift Navigation</h4>
+						<p>Aiming to provide affordable and accurate GPS modules. Swift Nav provide us with our GPS modules</p>
+					</div>
+					<div class = "col-md-4">
+						<h4>Venom</h4>
+						<p>Experts at recharable power systems. Venom is our provider of Li-po batteries</p>
 					</div>
 				</div>
-				<br><br>
-				<!--End of body-->
-                </div>
-            </div>
-    </section>
-    <hr>
-    <!--About Sponsors -->
-<section id="Sponsors" class="content-section text-center">
-        <div class="project-section">
-            <div class="container">
-                <div class="body">
-                    <h2>Sponsors</h2>
-		    <div class = "row">
-				<div class = "col-md-4">
-					<h4>UBC Engineering</h4>
-					<p>The University of British Columbia is our main sponsor, housing the team and the robot</p>
+					
+				<div class = "row">
+					<div class = "col-md-4">
+						<h4>Viking Profiles</h4>
+						<p>Viking Profiles, waterjet cutting since 1997, producer of our chassis</p>
+					</div>
+					<div class = "col-md-4">
+						<h4>Shell</h4>
+						<p>Being a mining engineering team, Shell's support for the team helped make the robot possible</p>
+					</div>
+					<div class = "col-md-4">
+						<h4>Fluor</h4>
+						<p>Thanks to Fluor's donations this year, Snowbots was able to complete the robot and head off to competition with ease.</p>
+					</div>
 				</div>
-			<div class = "col-md-4">
-				<h4>Swift Navigation</h4>
-				<p>Aiming to provide affordable and accurate GPS modules. Swift Nav provide us with our GPS modules</p>
 			</div>
-				<div class = "col-md-4">
-					<h4>Venom</h4>
-					<p>Experts at recharable power systems. Venom is our provider of Li-po batteries</p>
-				</div>
-              </div>
-		   <div class = "row">
-			<div class = "col-md-4">
-				<h4>Viking Profiles</h4>
-				<p>Viking Profiles, waterjet cutting since 1997, producer of our chassis</p>
+		</div>
+	</section>
+	
+	
+	<!-- Contact Section -->
+	<section id="contact" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+			<h2>Contact Snowbots</h2>
+			<p>Feel free to contact us for events, questions or ways to be involved!</p>
+			<p><a href="mailto:snowbots.ubc@gmail.com">snowbots.ubc@gmail.com</a></p>
+				<ul class="list-inline banner-social-buttons">
+				<li>
+				<a href="https://facebook.com/UBC.Snowbots" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+				</li>
+				<li>
+				<a href="https://github.com/UBC-Snowbots/IGVC2015" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+				</li>
+				</ul>
 			</div>
-			<div class = "col-md-4">
-				<h4>Shell</h4>
-				<p>Being a mining engineering team, Shell's support for the team helped make the robot possible</p>
-			</div>
-			<div class = "col-md-4">
-				<h4>Fluor</h4>
-				<p>Thanks to Fluor's donations this year, Snowbots was able to complete the robot and head off to competition with ease.</p>
-			</div>
-                    </div>
-            </div>
-        </div>
-    </section>
-    
+		</div>
+	</section>
+	
+	<!-- Map Section -->
+	<div id="map"></div>
+	
+	<!-- Footer -->
+	<footer>
+		<div class="container text-center">
+			<p>Copyright &copy; Snowbots 2015 - 2016</p>
+		</div>
+	</footer>
+	
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Snowbots</h2>
-                <p>Feel free to contact us for events, questions or ways to be involved!</p>
-                <p><a href="mailto:snowbots.ubc@gmail.com">snowbots.ubc@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://facebook.com/UBC.Snowbots" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/UBC-Snowbots/IGVC2015" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Snowbots 2015-2016</p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5yKLhVTvvpUrobkzxIUyR2VAujTgYQF4"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/grayscale.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5yKLhVTvvpUrobkzxIUyR2VAujTgYQF4"></script>
 </body>
-
 </html>
