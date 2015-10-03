@@ -39,7 +39,7 @@ p {
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 1.4em;
+        font-size: 1.3em;
         line-height: 1.6;
     }
 }
@@ -258,7 +258,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .download-section {
@@ -280,7 +280,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 120px;
     }
 
     .download-section {
@@ -373,8 +373,12 @@ body {
 
 .table{
 	font-size: 1.3em;
-	margin: 10px 0px;
+	margin: 20px 0px;
 }
 .table th{
+	/*th elements don't want to center by default :( */
 	text-align: center;
+}
+p.larger-text{
+	font-size: 1.4em;
 }
