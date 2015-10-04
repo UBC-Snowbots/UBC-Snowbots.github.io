@@ -18,7 +18,7 @@
     <link href="roster_main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -40,7 +40,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand" href="https://UBC-Snowbots.github.io">
                     <i class="fa fa-play-circle"></i>  <span class="light">UBC</span> Snowbots
                 </a>
             </div>
@@ -53,13 +53,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a  href="Join/">Join Us</a>
+                        <a  href="https://UBC-Snowbots.github.io/Join/">Join Us</a>
                     </li>
                     <li>
-                        <a  href="Roster/">The Team</a>
+                        <a  href="https://UBC-Snowbots.github.io/Roster/">The Team</a>
                     </li>
                                         <li>
-                        <a  href="Sponsors/">Sponsors</a>
+                        <a  href="https://UBC-Snowbots.github.io/Sponsors/">Sponsors</a>
                     </li>
 										<!--
               <li>
@@ -84,8 +84,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Snowbots</h1>
-                        <p class="intro-text">The Future Is Autonomous.<br>@UBC With Love.</p>
+                        <h1 class="brand-heading">The Team</h1>
+                        <p class="intro-text">Our Robot Builders</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -99,58 +99,332 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Snowbots</h2>
-                <p>UBC Snowbots builds autonomous robots that navigate through complex terrain to reach GPS waypoints. This year, Snowbots became the first team to represent UBC in the Intelligent Ground Vehicle Competition, a leading robot race hosting over 30 elite teams from all over the world including Turkey, India, and Japan.The robots are completely autonomous vehicles that are equipped with various sensors that can navigate to GPS waypoints dodging obstacles and following paths completely by themselyves. This multi-disciplinary feat calls for the integration of input from mechanical engineers, electrical engineers, and software programmers in order to design an effective vehicle that is capable of traversing the course both physically and on a software level.</p>
+                <h2>ABout Our Team</h2>
+                <p></p>
             </div>
         </div>
     </section>
-
-    <!-- Team Section -->
-    <section id="team" class="content-section text-center">
-        <div class="download-section">
-            <div class="container-fluid">
-                <div class="col-lg-8 col-lg-offset-2">
-								
-                </div>
-            </div>
-        </div>
-    </section>
-<section id="sponsors" class="content-section text-center">
+    
+<!--Admin Team Roster -->
+<section id="Admin" class="content-section text-center">
         <div class="project-section">
             <div class="container">
                 <div class="body">
-                    <h2>Sponsors</h2>
+                    <h2>The Admin Team</h2>
+		    <!--row1-->
 		    <div class = "row">
-				<div class = "col-md-4">
-					<h4>UBC Engineering</h4>
-					<p>The University of British Columbia is our main sponsor, housing the team and the robot</p>
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
 				</div>
-			<div class = "col-md-4">
-				<h4>Swift Navigation</h4>
-				<p>Aiming to provide affordable and accurate GPS modules. Swift Nav provide us with our GPS modules</p>
-			</div>
-				<div class = "col-md-4">
-					<h4>Venom</h4>
-					<p>Experts at recharable power systems. Venom is our provider of Li-po batteries</p>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
 				</div>
-              </div>
-		   <div class = "row">
-			<div class = "col-md-4">
-				<h4>Viking Profiles</h4>
-				<p>Viking Profiles, waterjet cutting since 1997, producer of our chassis</p>
-			</div>
-			<div class = "col-md-4">
-				<h4>Shell</h4>
-				<p>Being a mining engineering team, Shell's support for the team helped make the robot possible</p>
-			</div>
-			<div class = "col-md-4">
-				<h4>Fluor</h4>
-				<p>Thanks to Fluor's donations this year, Snowbots was able to complete the robot and head off to competition with ease.</p>
-			</div>
-                    </div>
-            </div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+           <!--end of row 1, start of row 2-->
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+             <!--end of row2, start of row 3-->
+          </div> 
         </div>
-    </section>
+ </section>
+ <hr>
+ <!--Mech Team Roster -->
+<section id="Mech" class="content-section text-center">
+        <div class="project-section">
+            <div class="container">
+                <div class="body">
+                    <h2>The Mechanical Team</h2>
+		    <!--row1-->
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+           <!--end of row 1, start of row 2-->
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+             <!--end of row2, start of row 3-->
+          </div> 
+        </div>
+ </section>
+ <hr>
+ <!--Elec team Roster -->
+<section id="Elec" class="content-section text-center">
+        <div class="project-section">
+            <div class="container">
+                <div class="body">
+                    <h2>The Electrical Team</h2>
+		    <!--row1-->
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+           <!--end of row 1, start of row 2-->
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+             <!--end of row2, start of row 3-->
+          </div> 
+        </div>
+ </section>
+ <hr>
+ <!--Software Roster -->
+<section id="Admin" class="content-section text-center">
+        <div class="project-section">
+            <div class="container">
+                <div class="body">
+                    <h2>The Most Important Team - Software Team</h2>
+		    <!--row1-->
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+           <!--end of row 1, start of row 2-->
+		   
+		    <div class = "row">
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class="thumbnail">
+					  <img data-src="holder.js/300x200" alt="">
+					  <h4>Thumbnail label</h4>
+					  <p>Thumbnail caption...</p>
+    				</div>
+				</div>
+           </div>
+
+			
+             </div>
+             <!--end of row2, start of row 3-->
+          </div> 
+        </div>
+ </section>
+ <hr>
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
@@ -172,7 +446,7 @@
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+    <!--<div id="map"></div>-->
 
     <!-- Footer -->
     <footer>
@@ -182,19 +456,19 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5yKLhVTvvpUrobkzxIUyR2VAujTgYQF4"></script>
+    <script type="../text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5yKLhVTvvpUrobkzxIUyR2VAujTgYQF4"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="../js/grayscale.js"></script>
 
 </body>
 
