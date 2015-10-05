@@ -375,3 +375,13 @@ body {
 	background-color: #042C43;
 	color:#EEEEEE;
 }
+
+.thumbnail{
+	padding: 0px;
+}
+.thumbnail h4{
+	margin: 20px 0px 10px 0px;
+}
+.thumbnail img{
+	margin-top: 20px;
+}
