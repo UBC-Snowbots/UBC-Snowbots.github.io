@@ -370,3 +370,8 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.teamlead{
+	background-color: #042C43;
+	color:#EEEEEE;
+}
