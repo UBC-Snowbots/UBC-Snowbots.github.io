@@ -382,3 +382,12 @@ body {
 p.larger-text{
 	font-size: 1.4em;
 }
+
+footer{
+	background-color: #222;
+}
+
+.thumbnail img{
+	width: 450px;
+	height: 260px;
+}
