@@ -343,8 +343,9 @@ footer {
     padding: 50px 0;
     font-size: 12px;
     font-family: "Montserrat";
-    color:#6f6f6f;
+    color:rgba(112,112,112);
     background-color: #fafafa;
+    border-top: 2px solid #eee;
 }
 
 
@@ -364,8 +365,8 @@ footer {
 			height:2px;
 			border-width:0;
 			margin: 5px 0px 15px 0px;
-			background-color: #ccc;
-			color:#ccc;
+			background-color: #ddd;
+			color:#ddd;
 		}
 		
 		footer .list-inline li{
@@ -387,7 +388,7 @@ footer {
 			}
 			
 			footer .list-inline li a:hover{
-				color: #222;
+				color: #333;
 			}
 
 
