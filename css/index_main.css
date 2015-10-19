@@ -343,7 +343,8 @@ footer {
     padding: 50px 0;
     font-size: 12px;
     font-family: "Montserrat";
-    color:#aaa;
+    color:#6f6f6f;
+    background-color: #fafafa;
 }
 
 
@@ -360,7 +361,11 @@ footer {
 		}
 		
 		footer .container hr{
+			height:2px;
+			border-width:0;
 			margin: 5px 0px 15px 0px;
+			background-color: #ccc;
+			color:#ccc;
 		}
 		
 		footer .list-inline li{
@@ -419,10 +424,6 @@ body {
 }
 p.larger-text{
 	font-size: 1.4em;
-}
-
-footer{
-	background-color: #222;
 }
 
 .thumbnail img{
