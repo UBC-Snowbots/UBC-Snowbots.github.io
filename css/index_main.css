@@ -161,8 +161,8 @@ a:hover, a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
-    padding: 100px 0;
+    height: 100%;
+    padding: 0;
     text-align: center; /*Change this once we get a new banner image*/
     color: #fff;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
@@ -179,26 +179,25 @@ a:hover, a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+	font-size: 100px;
 }
-
-.intro .intro-body .intro-text {
-    font-size: 16px;
-}
-
-
-@media(min-width:768px) {
-	.intro {
-	    height: 100%;
-	    padding: 0;
-	}
 	
+.intro .intro-body .intro-text {
+	font-size: 26px;
+}
+
+@media(max-width:768px) {
+	.intro {
+	    height: auto;
+	    padding: 100px 0px;
+	}
+
 	.intro .intro-body .brand-heading {
-	    font-size: 100px;
+	    font-size: 40px;
 	}
 	
 	.intro .intro-body .intro-text {
-	    font-size: 26px;
+	    font-size: 16px;
 	}
 }
 
