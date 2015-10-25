@@ -57,6 +57,11 @@ a:hover, a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar-custom .navbar-brand img {
+    display: inline;
 }
 
 .navbar-custom .navbar-brand:focus {
