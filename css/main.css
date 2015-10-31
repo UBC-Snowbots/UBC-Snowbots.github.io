@@ -424,16 +424,32 @@ p.larger-text{
 }
 
 .subteam li{
-	width: 240px;
+	width: 222px;
 	height: auto;
 	border: 1px solid #ccc;
-	margin: 10px 5px;
+	margin: 10px 2px;
+	padding: 0px;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
 }
+
+	.subteam li:nth-child(5){
+		margin-left: 0px;
+	}
+	.subteam li:first-child, .subteam li:nth-child(6){
+		margin-right: 0px;
+	}
+	
 	.subteam li h4{
 		margin: 20px 0px 10px 0px;
 	}
 	.subteam li img{
-		margin-top: 20px;
+		width: 220px;
+		margin: 0px;
+		position: relative;
 	}
 	
 	.subteam li p{
