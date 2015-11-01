@@ -433,7 +433,6 @@ p.larger-text{
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	
 }
 	.subteam li h4{
 		margin: 20px 0px 10px 0px;
@@ -457,6 +456,7 @@ p.larger-text{
 		display: inline-block;
 		margin: 0px 5px;
 	}
+	
 	.subteam li a:hover{
 		color: #333333;
 	}
@@ -468,6 +468,7 @@ p.larger-text{
 		display: inline-block;
 		margin: 0px 5px;
 	}
+	
 	.subteam li.teamlead a:hover{
 		color: #ffffff;
 	}
