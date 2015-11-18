@@ -434,9 +434,11 @@ p.larger-text{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 	.subteam li h4{
 		margin: 20px 0px 10px 0px;
 	}
+	
 	.subteam li img{
 		width: 220px;
 		margin: 0px;
@@ -460,7 +462,6 @@ p.larger-text{
 	.subteam li a:hover{
 		color: #333333;
 	}
-	
 	
 	.subteam li.teamlead a{
 		color: #eeeeee;
