@@ -126,9 +126,10 @@ a:hover, a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        border-bottom: 1px solid rgba(240,240,240,0.6);
+        background: #041f2e;
     }
+    
 
     p {
         margin: 0 0 35px;
