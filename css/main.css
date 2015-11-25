@@ -345,8 +345,8 @@ footer {
 		}
 		
 		footer .container hr{
-			height:2px;
-			border-width:0;
+			height: 2px;
+			border-width: 0;
 			margin: 5px 0px 15px 0px;
 			background-color: #ddd;
 			color:#ddd;
@@ -357,7 +357,7 @@ footer {
 			font-size: 16px;
 			padding-right: 20px;
 			margin-bottom: 10px;
-			letter-spacing: 2px;
+			letter-spacing: 1px;
 		}
 		
 		footer .list-inline li:first-child{
