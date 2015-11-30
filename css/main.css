@@ -478,7 +478,7 @@ p.larger-text{
 
 
 .alumni li{
-	width: 222px;
+	width: 370px;
 	height: auto;
 	border: 1px solid #ccc;
 	margin: 10px 0px;
@@ -490,31 +490,38 @@ p.larger-text{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+	.alumni li section{
+		
+		display: inline-block;
+	}
 
-	.alumni li h4{
+	.alumni li section h4{
+		
 		margin: 20px 0px 10px 0px;
 	}
 	
 	.alumni li img{
-		width: 220px;
+	float:left;
+		width: 110px;
 		margin: 0px;
 		position: relative;
+		display:inline-block;
 	}
 	
-	.alumni li p{
+	.alumni li section p{
 		margin-bottom: 10px;
 		font-family: "Open Sans";
 		font-size: 1.2em;
 		letter-spacing: 1.5px;
 	}
 	
-	.alumni li a{
+	.alumni li section a{
 		color: #f5f5f5;
 		text-transform: none;
 		display: inline-block;
 		margin: 0px 5px;
 	}
 	
-	.alumni li a:hover{
+	.alumni li section a:hover{
 		color: #333333;
 	}
