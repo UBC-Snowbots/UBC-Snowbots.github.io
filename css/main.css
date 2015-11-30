@@ -525,3 +525,11 @@ p.larger-text{
 	.alumni li section a:hover{
 		color: #333333;
 	}
+
+    #sponsors a{
+        color: #707070;
+    }
+
+    #sponsors a:hover{
+        color: #444444;
+    }
