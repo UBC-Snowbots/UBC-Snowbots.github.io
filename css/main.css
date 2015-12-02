@@ -420,6 +420,16 @@ p.larger-text{
 	}
 	
 
+/*------SPONSORS----*/
+#sponsors a{
+	color: #707070;
+}
+#sponsors a:hover{
+	color: #444444;
+}
+
+
+
 .teamlead{
 	background-color: #042C43;
 	color:#EEEEEE;
@@ -524,10 +534,3 @@ p.larger-text{
 		.alumni li section a:hover{
 			color: #aaaaaa;
 		}
-		
-#sponsors a{
-	color: #707070;
-}
-#sponsors a:hover{
-	color: #444444;
-}
