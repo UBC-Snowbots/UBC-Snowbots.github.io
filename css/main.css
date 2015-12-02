@@ -481,7 +481,7 @@ p.larger-text{
 	width: 370px;
 	height: auto;
 	border: 1px solid #ccc;
-	margin: 10px 0px;
+	margin: 5px 3px;
 	padding: 0px;
 	background-color: #252525;
 	color:#f5f5f5;
@@ -490,38 +490,36 @@ p.larger-text{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-	.alumni li section{
-		
-		display: inline-block;
-	}
-
-	.alumni li section h4{
-		
-		margin: 20px 0px 10px 0px;
-	}
-	
 	.alumni li img{
-	float:left;
+		float:left;
 		width: 120px;
 		margin: 0px;
 		position: relative;
 		display:inline-block;
 	}
 	
-	.alumni li section p{
-		margin-bottom: 10px;
-		font-family: "Open Sans";
-		font-size: 1.2em;
-		letter-spacing: 1.5px;
-	}
-	
-	.alumni li section a{
-		color: #f5f5f5;
-		text-transform: none;
+	.alumni li section{
 		display: inline-block;
-		margin: 0px 5px;
 	}
-	
-	.alumni li section a:hover{
-		color: #333333;
-	}
+
+		.alumni li section h4{
+			margin: 20px 0px 10px 0px;
+		}
+		
+		.alumni li section p{
+			margin-bottom: 10px;
+			font-family: "Open Sans";
+			font-size: 1.2em;
+			letter-spacing: 1.5px;
+		}
+		
+		.alumni li section a{
+			color: #f5f5f5;
+			text-transform: none;
+			display: inline-block;
+			margin: 0px 5px;
+		}
+		
+		.alumni li section a:hover{
+			color: #aaaaaa;
+		}
