@@ -490,6 +490,7 @@ p.larger-text{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 	.alumni li img{
 		float:left;
 		width: 120px;
@@ -523,3 +524,10 @@ p.larger-text{
 		.alumni li section a:hover{
 			color: #aaaaaa;
 		}
+		
+#sponsors a{
+	color: #707070;
+}
+#sponsors a:hover{
+	color: #444444;
+}
