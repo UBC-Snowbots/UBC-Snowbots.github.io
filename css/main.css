@@ -330,17 +330,17 @@ footer {
     font-family: "Montserrat";
     color:rgba(112,112,112);
 }
-
-
-	footer .container{
-		padding-top: 20px;
-	}
 	
-		footer .container h3{
+		footer .content-section{
+			/*Reset content-section padding to prevent large gap in footer*/
+			padding-top: 0px;
+		}
+		
+		footer h3{
 			margin-bottom: 0px;
 		}
 		
-		footer .container p{
+		footer p{
 			margin-bottom: 15px;
 		}
 		
