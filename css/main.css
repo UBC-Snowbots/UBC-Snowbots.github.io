@@ -420,8 +420,7 @@ p.larger-text{
 	}
 	
 
-
-
+/*-----TEAM ROSTER-----*/
 .teamlead{
 	background-color: #042C43;
 	color:#EEEEEE;
@@ -478,7 +477,7 @@ p.larger-text{
 		color: #ffffff;
 	}
 
-
+/*--------ALUMNI---------*/
 .alumni li{
 	width: 370px;
 	height: auto;
@@ -528,13 +527,13 @@ p.larger-text{
 		}
 	
 		
+/*------SPONSORS-------*/
 .sponsors li{
 	width: 350px;
 	height: auto;
 	
 	margin: 10px 15px;
 	padding: 0px;
-
 	
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
