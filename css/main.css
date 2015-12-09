@@ -420,14 +420,6 @@ p.larger-text{
 	}
 	
 
-/*------SPONSORS----*/
-#sponsors a{
-	color: #707070;
-}
-#sponsors a:hover{
-	color: #444444;
-}
-
 
 
 .teamlead{
@@ -533,4 +525,34 @@ p.larger-text{
 		
 		.alumni li section a:hover{
 			color: #aaaaaa;
+		}
+	
+		
+.sponsors li{
+	width: 350px;
+	height: auto;
+	
+	margin: 10px 15px;
+	padding: 0px;
+
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+	.sponsors li:first-child{
+		margin-left: 0px;
+	}
+	
+	.sponsors li:nth-child(3){
+		margin-right: 0px;
+	}
+
+	.sponsors li a{
+		color: #707070;
+	}
+	
+		.sponsors li a:hover{
+			color: #444444;
 		}
