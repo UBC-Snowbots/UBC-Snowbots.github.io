@@ -4,9 +4,21 @@
 	<p>Captian</p>
 </li>
 
+<li class="teamlead">
+	<img src="img/roster/Edward_Li.JPG" alt="Edward Li"/>
+	<h4>Edward Li</h4>
+	<p>Mechanical Lead</p>
+</li>
+
+<li class="teamlead">
+	<img src="img/roster/Jason_Raymundo.JPG" alt="Jason Raymundo"/>
+	<h4>Jason Raymundo</h4>
+	<p>Mechanical Lead</p>
+</li>
+
 <li>
-	<img src="img/roster/Andrew_Kang.JPG" alt="Andrew Kang"/>
-	<h4>Andrew Kang</h4>
+	<img src="img/roster/Charles_Cai.JPG" alt="Charles Cai"/>
+	<h4>Charles Cai</h4>
 	<p>Drive Train</p>
 </li>
 
@@ -17,26 +29,8 @@
 </li>
 
 <li>
-	<img src="img/roster/Charles_Cai.JPG" alt="Charles Cai"/>
-	<h4>Charles Cai</h4>
-	<p>Drive Train</p>
-</li>
-
-<li>
-	<img src="img/roster/Edward_Li.JPG" alt="Edward Li"/>
-	<h4>Edward Li</h4>
-	<p>Mechanical Lead</p>
-</li>
-
-<li>
-	<img src="img/roster/Emma_Tam.JPG" alt="Emma Tam"/>
-	<h4>Emma Tam</h4>
-	<p>Plow</p>
-</li>
-
-<li>
-	<img src="img/roster/Jacky_Sun.JPG" alt="Jacky Sun"/>
-	<h4>Jacky Sun</h4>
+	<img src="img/roster/Andrew_Kang.JPG" alt="Andrew Kang"/>
+	<h4>Andrew Kang</h4>
 	<p>Drive Train</p>
 </li>
 
@@ -47,9 +41,21 @@
 </li>
 
 <li>
-	<img src="img/roster/Jason_Raymundo.JPG" alt="Jason Raymundo"/>
-	<h4>Jason Raymundo</h4>
-	<p>Mechanical Lead</p>
+	<img src="img/roster/Sze-Kei_Luk.JPG" alt="Sze-Kei Luk"/>
+	<h4>Sze-Kei Luk</h4>
+	<p>Plow</p>
+</li>
+
+<li>
+	<img src="img/roster/Jacky_Sun.JPG" alt="Jacky Sun"/>
+	<h4>Jacky Sun</h4>
+	<p>Drive Train</p>
+</li>
+
+<li>
+	<img src="img/roster/Emma_Tam.JPG" alt="Emma Tam"/>
+	<h4>Emma Tam</h4>
+	<p>Plow</p>
 </li>
 
 <li>
@@ -58,10 +64,16 @@
 	<p>Drive Train</p>
 </li>
 
-<li>
-	<img src="img/roster/Sze-Kei_Luk.JPG" alt="Sze-Kei Luk"/>
-	<h4>Sze-Kei Luk</h4>
-	<p>Plow</p>
+<li class="teamlead">
+	<img src="img/roster/Winnie_Mui.JPG" alt="Winnie Mui"/>
+	<h4>Winnie Mui</h4>
+	<p>Electrical Lead</p>
+</li>
+
+<li class="teamlead">
+	<img src="img/roster/Kirk_Wong.JPG" alt="Kirk Wong"/>
+	<h4>Kirk Wong</h4>
+	<p>Electrical Lead</p>
 </li>
 
 <li>
@@ -71,50 +83,8 @@
 </li>
 
 <li>
-	<img src="img/roster/Blank.JPG" alt="Clarissa Gunawan"/>
-	<h4>Clarissa Gunawan</h4>
-	<p>Power System</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Gurjeet Singh"/>
-	<h4>Gurjeet Singh</h4>
-	<p>Firmware</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Jay Paul"/>
-	<h4>Jay Paul</h4>
-	<p>Avalanche</p>
-</li>
-
-<li>
-	<img src="img/roster/Kirk_Wong.JPG" alt="Kirk Wong"/>
-	<h4>Kirk Wong</h4>
-	<p>Electrical Lead</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Michelle Mak"/>
-	<h4>Michelle Mak</h4>
-	<p>Power System</p>
-</li>
-
-<li>
 	<img src="img/roster/Blank.JPG" alt="Mitchell Ang"/>
 	<h4>Mitchell Ang</h4>
-	<p>Compass</p>
-</li>
-
-<li>
-	<img src="img/roster/Myra_Niu.JPG" alt="Myra Niu"/>
-	<h4>Myra Niu</h4>
-	<p>Avalanche</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Shahzoor Safdar"/>
-	<h4>Shahzoor Safdar</h4>
 	<p>Compass</p>
 </li>
 
@@ -125,15 +95,45 @@
 </li>
 
 <li>
-	<img src="img/roster/Blank.JPG" alt="Vivy Wang"/>
-	<h4>Vivy Wang</h4>
+	<img src="img/roster/Blank.JPG" alt="Clarissa Gunawan"/>
+	<h4>Clarissa Gunawan</h4>
+	<p>Power System</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Michelle Mak"/>
+	<h4>Michelle Mak</h4>
+	<p>Power System</p>
+</li>
+
+<li>
+	<img src="img/roster/Myra_Niu.JPG" alt="Myra Niu"/>
+	<h4>Myra Niu</h4>
+	<p>Avalanche</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Jay Paul"/>
+	<h4>Jay Paul</h4>
+	<p>Avalanche</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Shahzoor Safdar"/>
+	<h4>Shahzoor Safdar</h4>
+	<p>Compass</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Gurjeet Singh"/>
+	<h4>Gurjeet Singh</h4>
 	<p>Firmware</p>
 </li>
 
 <li>
-	<img src="img/roster/Winnie_Mui.JPG" alt="Winnie Mui"/>
-	<h4>Winnie Mui</h4>
-	<p>Electrical Lead</p>
+	<img src="img/roster/Blank.JPG" alt="Vivy Wang"/>
+	<h4>Vivy Wang</h4>
+	<p>Firmware</p>
 </li>
 
 <li>
@@ -143,45 +143,27 @@
 </li>
 
 <li>
-	<img src="img/roster/Blank.JPG" alt="Aaron Mishkin"/>
-	<h4>Aaron Mishkin</h4>
-	<p>AI:Pathfinding</p>
+	<img src="img/roster/Gareth_Ellis.JPG" alt="Gareth Ellis"/>
+	<h4>Gareth Ellis</h4>
+	<p>ION Saviour</p>
 </li>
 
-<li>
-	<img src="img/roster/Blank.JPG" alt="Aashish Karna"/>
-	<h4>Aashish Karna</h4>
-	<p>LIDAR</p>
+<li class="teamlead">
+	<img src="img/roster/Finn_Hackett.JPG" alt="Finn Hackett"/>
+	<h4>Finn Hackett</h4>
+	<p>IOP Networking Lead</p>
 </li>
 
-<li>
-	<img src="img/roster/Andy_Lin.JPG" alt="Andy Lin"/>
-	<h4>Andy Lin</h4>
-	<p>Vision</p>
+<li class="teamlead">
+	<img src="img/roster/Simon_Jinaphant.JPG" alt="Simon Jinaphant"/>
+	<h4>Simon Jinaphant</h4>
+	<p>AI:Pathfinding Lead</p>
 </li>
 
-<li>
-	<img src="img/roster/Angy_Chung.JPG" alt="Angy Chung"/>
-	<h4>Angy Chung</h4>
-	<p>AI:Mapping</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Anni Wang"/>
-	<h4>Anni Wang</h4>
-	<p>LIDAR</p>
-</li>
-
-<li>
-	<img src="img/roster/Ardy_Ferguson.JPG" alt="Ardy Ferguson"/>
-	<h4>Ardy Ferguson</h4>
-	<p>Vision</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Dipankar Tewari"/>
-	<h4>Dipankar Tewari</h4>
-	<p>Vision</p>
+<li class="teamlead">
+	<img src="img/roster/Vincent_Yuan.JPG" alt="Vincent Yuan"/>
+	<h4>Vincent Yuan</h4>
+	<p>Integrations Lead</p>
 </li>
 
 <li>
@@ -191,32 +173,8 @@
 </li>
 
 <li>
-	<img src="img/roster/Blank.JPG" alt="Emmanuel Sales"/>
-	<h4>Emmanuel Sales</h4>
-	<p>Integrations</p>
-</li>
-
-<li>
-	<img src="img/roster/Blank.JPG" alt="Eugene Shen"/>
-	<h4>Eugene Shen</h4>
-	<p>Integrations </p>
-</li>
-
-<li>
-	<img src="img/roster/Finn_Hackett.JPG" alt="Finn Hackett"/>
-	<h4>Finn Hackett</h4>
-	<p>IOP Networking Lead</p>
-</li>
-
-<li>
-	<img src="img/roster/Gareth_Ellis.JPG" alt="Gareth Ellis"/>
-	<h4>Gareth Ellis</h4>
-	<p>ION Saviour</p>
-</li>
-
-<li>
-	<img src="img/roster/Jagjot_Jhajj.JPG" alt="Jagjot Jhajj"/>
-	<h4>Jagjot Jhajj</h4>
+	<img src="img/roster/Angy_Chung.JPG" alt="Angy Chung"/>
+	<h4>Angy Chung</h4>
 	<p>AI:Mapping</p>
 </li>
 
@@ -227,33 +185,27 @@
 </li>
 
 <li>
-	<img src="img/roster/Blank.JPG" alt="Jamie Ye"/>
-	<h4>Jamie Ye</h4>
-	<p>LIDAR</p>
-</li>
-
-<li>
 	<img src="img/roster/Jeffrey_Doyle.JPG" alt="Jeffrey Doyle"/>
 	<h4>Jeffrey Doyle</h4>
 	<p>Vision</p>
 </li>
 
 <li>
-	<img src="img/roster/Lin_Xiang.JPG" alt="Lin Xiang"/>
-	<h4>Lin Xiang</h4>
+	<img src="img/roster/Ardy_Ferguson.JPG" alt="Ardy Ferguson"/>
+	<h4>Ardy Ferguson</h4>
 	<p>Vision</p>
 </li>
 
 <li>
-	<img src="img/roster/Maya_Schuller.JPG" alt="Maya Schuller"/>
-	<h4>Maya Schuller</h4>
-	<p>Integrations</p>
+	<img src="img/roster/Jagjot_Jhajj.JPG" alt="Jagjot Jhajj"/>
+	<h4>Jagjot Jhajj</h4>
+	<p>AI:Mapping</p>
 </li>
 
 <li>
-	<img src="img/roster/Nick_Wu.JPG" alt="Nick Wu"/>
-	<h4>Nick Wu</h4>
-	<p>Integrations</p>
+	<img src="img/roster/Blank.JPG" alt="Aashish Karna"/>
+	<h4>Aashish Karna</h4>
+	<p>LIDAR</p>
 </li>
 
 <li>
@@ -263,15 +215,15 @@
 </li>
 
 <li>
-	<img src="img/roster/Blank.JPG" alt="Preetpal Phandar"/>
-	<h4>Preetpal Phandar</h4>
+	<img src="img/roster/Zara_Lim.JPG" alt="Zara Lim"/>
+	<h4>Zara Lim</h4>
 	<p>Vision</p>
 </li>
 
 <li>
-	<img src="img/roster/Simon_Jinaphant.JPG" alt="Simon Jinaphant"/>
-	<h4>Simon Jinaphant</h4>
-	<p>AI:Pathfinding Lead</p>
+	<img src="img/roster/Andy_Lin.JPG" alt="Andy Lin"/>
+	<h4>Andy Lin</h4>
+	<p>Vision</p>
 </li>
 
 <li>
@@ -281,20 +233,68 @@
 </li>
 
 <li>
+	<img src="img/roster/Blank.JPG" alt="Aaron Mishkin"/>
+	<h4>Aaron Mishkin</h4>
+	<p>AI:Pathfinding</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Preetpal Phandar"/>
+	<h4>Preetpal Phandar</h4>
+	<p>Vision</p>
+</li>
+
+<li>
 	<img src="img/roster/Valerian_Ratu.JPG" alt="Valerian Ratu"/>
 	<h4>Valerian Ratu</h4>
 	<p>Vision</p>
 </li>
 
 <li>
-	<img src="img/roster/Vincent_Yuan.JPG" alt="Vincent Yuan"/>
-	<h4>Vincent Yuan</h4>
-	<p>Integrations Lead</p>
+	<img src="img/roster/Blank.JPG" alt="Emmanuel Sales"/>
+	<h4>Emmanuel Sales</h4>
+	<p>Integrations</p>
 </li>
 
 <li>
-	<img src="img/roster/Zara_Lim.JPG" alt="Zara Lim"/>
-	<h4>Zara Lim</h4>
+	<img src="img/roster/Maya_Schuller.JPG" alt="Maya Schuller"/>
+	<h4>Maya Schuller</h4>
+	<p>Integrations</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Eugene Shen"/>
+	<h4>Eugene Shen</h4>
+	<p>Integrations </p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Dipankar Tewari"/>
+	<h4>Dipankar Tewari</h4>
 	<p>Vision</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Anni Wang"/>
+	<h4>Anni Wang</h4>
+	<p>LIDAR</p>
+</li>
+
+<li>
+	<img src="img/roster/Nick_Wu.JPG" alt="Nick Wu"/>
+	<h4>Nick Wu</h4>
+	<p>Integrations</p>
+</li>
+
+<li>
+	<img src="img/roster/Lin_Xiang.JPG" alt="Lin Xiang"/>
+	<h4>Lin Xiang</h4>
+	<p>Vision</p>
+</li>
+
+<li>
+	<img src="img/roster/Blank.JPG" alt="Jamie Ye"/>
+	<h4>Jamie Ye</h4>
+	<p>LIDAR</p>
 </li>
 
