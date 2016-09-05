@@ -545,11 +545,11 @@ p.larger-text{
 	-webkit-box-sizing: border-box;
 }
 
-	.sponsors li:first-child{
+	.sponsors li:nth-child(3n+1){
 		margin-left: 0px;
 	}
 
-	.sponsors li:nth-child(3){
+	.sponsors li:nth-child(3n+3){
 		margin-right: 0px;
 	}
 
