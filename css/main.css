@@ -187,6 +187,11 @@ a:hover, a:focus {
     background-size: cover;
 }
 
+#challenge_intro{
+  background: url("../img/challenge.jpg") no-repeat bottom center scroll;
+  background-size: cover;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
