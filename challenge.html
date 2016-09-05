@@ -70,7 +70,7 @@
         </div><!-- /.container -->
     </nav>
     <!-- Intro Header -->
-    <header class="intro">
+    <header id="challenge_intro" class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -90,64 +90,77 @@
     <section id="Introduction" class="content-section text-center">
         <div class="container-fluid">
             <div class="col-lg-8 col-lg-offset-2">
-                
+
                 <h2>Introduction to the Challenge</h2>
-                
+
                 <h4> What we're looking for with this challenge</h4>
-                <p> The most important thing for becoming a new member on this team isn't prior ability. You don't have to have to be a coding wizard! What we're looking for is people
-                who are persistent, who, when presented with a problem in a subject area they might not understand, work through it, learning as needed. The challenges have been created accordingly. With enough perserverence, you should be able to complete them with only basic programming experience.</p>
-                        
+                <p> The most important thing for becoming a new member on this team isn't prior ability. <br>You don't have to have to be a coding wizard!
+								<br>You just have to be willing to pick up the skills necessary when presented with a problem.
+								</p><p>The challenges have been created accordingly. <br>With enough perserverance, you should be able to complete them with only basic programming experience.</p>
+
                 <h4>Who's this challenge for?</h4>
-                <p>This challenge is for people who'd like to join our software team. If we're not recruting (check <a href="join.html">here</a>),  feel free to <a href="mailto:snowbots.ubc@gmail.com">send us an email</a> to see when we will reopen recruitment! </p>
-                
+                <p>This challenge is for people who'd like to join our software team. </p><p> Check <a href="join.html">here</a> to see if we are recruiting. Our team generally recruits at the beginning of school terms. If you feel that you may have missed the recruitment, feel free to <a href="mailto:snowbots.ubc@gmail.com">send us an email</a> to see when we will reopen recruitment! </p>
+
             </div>
         </div>
     </section>
-    
-    
+
+
     <section id="Challenge" class="content-section text-center">
          <div class="container-fluid">
             <div class="col-lg-8 col-lg-offset-2">
 
                 <h2> Challenge 1: Getting Set Up</h2>
-                <p>All of our development is done on Linux, more specifically Ubuntu. So, your first challenge is to get Ubuntu and our software stack up and running. We've written some instructions to help you along, which can be found in our <a href="https://github.com/UBC-Snowbots/IGVC-2017">github repository</a>, under <b>Installation and Setup</b>. <br>
+                <p>All of our development is done on Linux, more specifically Ubuntu. So, your first challenge is to get Ubuntu and our software stack up and running. <br>We've written some instructions to help you along, which can be found in our <a href="https://github.com/UBC-Snowbots/IGVC-2017">github repository</a>, under <b>Installation and Setup</b>. </p><p>
                 <i><b>Note:</b> If you can complete the challenges through something other then a native Ubuntu install, such as through a VM or other Linux distro, that's fine too, but we're not going to offer any help getting non-native Ubuntu setup's running</i></p>
 
                 <h2> Challenge 2: TurtleSim Sine Wave</h2>
-                <p> OK, for this challenge, you'll need some pretty advanced mathematical skills. We're talking basic knowledge of what a sine function is... and that's about it. Seriously though, you don't need to know any advanced maths to join this team. Like I said in the intro, we're looking for people willing to learn. As such, your challange is to have <a href="http://wiki.ros.org/turtlesim">turtlesim</a> draw out a sine wave. Since the build system for <a href="http://wiki.ros.org/">ROS</a> can be kinda complicated (I still don't understand it), we've provided you most of the framework for what you'll need. In <code>~/IGVC-2017/src/challenge/src/solution.cpp</code> you'll find a skeleton project, with a main function and a while loop, alongside a bunch of <a href="#Resources">resources down below</a>. You don't have to use this skeleton project, but we'd recommend it. You should be aiming for a final result that looks something like this:</p>
-                <img src="img/turtlesim-sine-wave-solution.gif">
-                <p><i><b>Note:</b> Please don't just use the keyboard controls to draw this. Yes. We thought of that. As pretty as I'm sure yours is, we're more concerned with your code!<br>
-                <b>Note:</b> you can also write your solution in python get started <a href="http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber(python)">here</a>, but the resources below are C++ focused, and that's the language we'd prefer</i></p>
-                
-                <p>We'd suggest you start by understanding how ROS works <a href="http://robohub.org/ros-101-intro-to-the-robot-operating-system/">here</a>, then walking through the <a href="http://wiki.ros.org/ROS/Tutorials">ROS Tutorials</a> (at least all of section 1.1) (some commands are different across ROS versions. We're using ROS Kinetic, which is the latest). We've done a lot of this stuff already, but it's important that you at least understand it. In particular, <b>#5-6</b>, <b>#11</b>, and <b>#13</b> are important for this challenge. After that, you should be pretty much ready to start! To run the skeleton project we've provided, first source the project by running <code>cd ~/IGVC-2017 && source devel/setup.sh</code> then run <code>rosrun challenge solution</code> . While you're working, we'd suggest you have the <a href="http://wiki.ros.org/turtlesim">turtlesim reference</a> open (mostly for <b>2.1.1</b> and <b>2.1.2</b>). It also contains some video tutorials, which may be of use. Make sure to take a look at the references for <a href="http://docs.ros.org/api/geometry_msgs/html/msg/Twist.html">geometry_msgs/Twist</a> (What you'll be sending turtlebot) and <a href="http://docs.ros.org/api/turtlesim/html/msg/Pose.html">turtlesim/Pose</a> (what turtlesim will be sending you). You might however, not have to use the <a href="http://docs.ros.org/api/turtlesim/html/msg/Pose.html">turtlesim/Pose</a>, as there are several ways to solve this problem.<br>
-                
+                <p> OK, for this challenge, you'll need some pretty advanced mathematical skills. We're talking basic knowledge of what a sine function is... and that's about it. <br>Seriously though, you don't need to know any advanced maths to join this team. <br>Like I said in the intro, we're looking for people willing to learn.</p>
+
+								<p><b>As such, your challange is to have <a href="http://wiki.ros.org/turtlesim">turtlesim</a> draw out a sine wave.</b> <br>Since the build system for <a href="http://wiki.ros.org/">ROS</a> can be kinda complicated, we've provided you most of the framework for what you'll need. </p>
+
+								<p>In <code>~/IGVC-2017/src/challenge/src/solution.cpp</code> you'll find a skeleton project, with a main function and a while loop, alongside a bunch of <a href="#Resources">resources down below</a>. You don't have to use this skeleton project, but we'd recommend it. You should be aiming for a final result that looks something like this:</p>
+
+                <p><img src="img/turtlesim-sine-wave-solution.gif"></p>
+                <p><i><b>Note:</b> Please don't just use the keyboard controls to draw this. Yes. We thought of that. As pretty as I'm sure yours is, we're more concerned with your code!</i><br><br>
+                You can also write your solution in python get started <a href="http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber(python)">here</a>, but the resources below are C++ focused, and that's the language we'd prefer you use</p>
+<hr>
+                <p><b>We'd suggest you start by understanding how ROS works <a href="http://robohub.org/ros-101-intro-to-the-robot-operating-system/">here</a>, then walking through the <a href="http://wiki.ros.org/ROS/Tutorials">ROS Tutorials</a> (at least all of section 1.1)</b>
+							  <br><br>We've done a lot of this stuff already, but it's important that you at least understand it. In particular, <b>#5-6</b>, <b>#11</b>, and <b>#13</b> are important for this challenge.
+								After that, you should be pretty much ready to start! To run the skeleton project we've provided, first source the project by running:</p><p><code>$ cd ~/IGVC-2017 && source devel/setup.sh</code><br> then run <br><code>$ rosrun challenge solution</code>.</p>
+								<p>While you're working, we'd suggest you have the <a href="http://wiki.ros.org/turtlesim">turtlesim reference</a> open (mostly for <b>2.1.1</b> and <b>2.1.2</b>). It also contains some video tutorials, which may be of use.
+								Make sure to take a look at the references for:
+								<br><br>
+								 <a href="http://docs.ros.org/api/geometry_msgs/html/msg/Twist.html">geometry_msgs/Twist</a> (The command you send to the turtlebot)<br><a href="http://docs.ros.org/api/turtlesim/html/msg/Pose.html">turtlesim/Pose</a> (what the turtlebot is sending you). <br><br>
+
+								You might however, not have to use the <a href="http://docs.ros.org/api/turtlesim/html/msg/Pose.html">turtlesim/Pose</a>, as there are several ways to solve this problem.<br>
+
                 <h3> Bonus: Make The Turtle Do Something Else</h3>
-                <p> The title sums this one up pretty nicely. You don't have to do this challenge, if you've gotten to this point, you've already done pretty well. But we kinda figured it'd be interesting to see what people come up with. Please don't just copy something from the tutorials, but feel to free to extend the tutorials or even the above challenge.</p>
-                
+                <p> The title sums this one up pretty nicely. You don't have to do this challenge, if you've gotten to this point, you've already done pretty well.<br> But we encourage people to try things out and bring it to the interview, it helps us know how familiar you are with our system.</p>
+
                 <h3> Super Bonus: Testing</h3>
-                <p>This one's a fair bit harder, then the previous ones, so don't worry if you don't get it. For this, we want you to re-write the <b>Challenge</b> package into the non-simple configuration specified in the <b>README</b> (the one with testing) and write (and run) some unit tests for your solution!</p>
+                <p>This one's a fair bit harder, than the previous ones, so don't worry if you don't get it. <br>For this, we want you to re-write the <b>Challenge</b> package into the non-simple configuration specified in the <b>README</b> (the one with testing) and write (and run) some unit tests for your solution!</p>
 
             </div>
         </div>
     </section>
-    
-    
+
+
     <section id="Resources" class="content-section text-center">
          <div class="container-fluid">
              <div class="col-lg-8 col-lg-offset-2">
-            
+
                  <h2>References and Resources</h2>
 
                  <div class="row">
                  <h4> C++ Resources </h4>
-                     <div class="col-md-6">
+                     <div class="col-md-4 col-centered">
                     <h4>
-                        <a href="http://www.tutorialspoint.com/cplusplus/index.htm">TutorialsPoint C++ </a><br>
-                        (For Beginners, or if you need a refresher)
-                    </h4>
+                        <a href="http://www.tutorialspoint.com/cplusplus/index.htm">TutorialsPoint C++ </a>
+                    </h4><p>Resource better meant for beginners.Best for learning all the basics of C++ step by step</p>
                     </div>
-                    <div class="col-md-6">
-                        <h4><a href="http://en.cppreference.com/w/">C++ Reference</a></h4>
+                    <div class="col-md-4 col-centered">
+                        <h4><a href="http://en.cppreference.com/w/">C++ Reference</a></h4><p>Documentation for the C++ language, best used as a reference manual after learning the basics</p>
                     </div>
                 </div>
 
@@ -155,74 +168,33 @@
                 <h4> ROS Resources </h4>
                     <div class="col-md-4">
                         <h4><a href="http://robohub.org/ros-101-intro-to-the-robot-operating-system/">ROS Overview</a></h4>
+												<p>Learning the basics of what ROS is</p>
                     </div>
                     <div class="col-md-4">
-                        <h4><a href="http://wiki.ros.org/ROS/Tutorials">ROS Basics</a></h4>
+                        <h4><a href="http://wiki.ros.org/ROS/Tutorials">ROS Basics</a></h4><p>Tutorials for learning the basic features and functions of ROS</p>
                     </div>
                     <div class="col-md-4">
-                        <h4><a href="http://wiki.ros.org/turtlesim">TurtleSim Reference</a></h4>
+                        <h4><a href="http://wiki.ros.org/turtlesim">TurtleSim Reference</a></h4><p>Turtle things</p>
                     </div>
                 </div>
-        
+
             </div>
         </div>
     </section>
 
-    
+
     <section id="Finished" class="content-section text-center">
          <div class="container-fluid">
             <div class="col-lg-8 col-lg-offset-2">
-                
+
                 <h2> Finished? </h2>
                 <p>Great! If you've already booked an interview, bring your solution for us to see, if not, please check <a href="join.html">this</a> page to see if we're currently recruiting for software, or send us an email to see when recruitment will reopen!</p>
-                
+
             </div>
         </div>
     </section>
 
-    <!--
-<br><br>
-										<h4>References and Resources</h4>
-										<p>A good reference for C++ can be found here: <a href ="http://www.cplusplus.com">http://www.cplusplus.com/</a>. It has up-to-date, standards-compliant information, and is my go-to 'reference book'. It also has a tutorial, though I'm sure you can find one if that's what you're looking for.</p>
-										<p>Python has some of the best documentation I have ever seen: <a href = "http://www.python.org/doc/"> https://www.python.org/doc/</a>. This covers from the basics to the deepest technicalities of the language and all its built-in modules.
-</p>
-										<div class = "row">
-										<p>Here are a few methods that are commonly used to compile code with</p>
-										<div class = "col-md-4">
-										<h4><a href = "http://wiki.ros.org/catkin/Tutorials">ROS catkin</a></h4>
-										<p>ROS catkin is a set of macros built into ROS for managing code. This is the primary tool we use for code compilation in Snowbots.</p>
-										</div>
-										<div class = "col-md-4">
-										<h4><a href = "http://www.cprogramming.com/g++.html">g++</a> and <a href ="https://gcc.gnu.org/">gcc</a></h4>
-										<p>Here are the standard c and c++ compilers you can find in linux systems. Either click on the link or try $man g++ in the terminal. ($man is a very helpful command in linux)</p>
-										</div>
-										<div class = "col-md-4">
-										<h4><a href ="http://linux.die.net/man/1/python">Python terminal</a></h4>
-										<p>The link is the manual page to python for terminals. Look there to see how you can run your .py scripts</p>
-										</div>
-										</div>
-										<p>Interesting libraries/systems we may sometimes use, so you can look up what's in store, and more importantly learn how to use these as we work throughout the year:</p>
-
-										<div class = "row">
-										<div class = "col-md-6">
-										<h4><a href="http://www.boost.org">Boost</a></h4><p>Makes some C++ much easier to read/write. (iterators are awesome – the adventurous may try to rewrite the C++ version below using it)</p></div>
-</li>
-										<div class = "col-md-6">
-										<h4><a href = "http://arma.sourceforge.net/download.html">Armadillo </a></h4><p>For that moment when you are tempted to write out the full, gory details of a matrix/other math operation in C++.
-</p></div></div>
-										<div class = "row">
-										<div class = "col-md-6">
-										<h4><a href="http://www.cmake.org/documentation/">CMake</a></h4><p>Automates building and configuring software across platforms and computers. We use this for everything.</p>
-</li></div>
-										<div class = "col-md-6">
-										<h4><a href="http://www.ros.org/">ROS</a></h4><p>Runs our robot, and has a special build system build on top of CMake called Catkin. We also use this for everything.</p>
-</li></div>
-										</div>
-
-                </div>
-            </div>
-    </section>
--->
+  
 
     <!-- Map Section -->
     <div id="map"></div>
