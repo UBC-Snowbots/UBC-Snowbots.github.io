@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>UBC Snowbots</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body class="landing">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+
+        <h1><img src="images/snowbot_color_trans.png" height="50em" /></h1>
+
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="join">Join Us</a>
+                </li>
+                <li><a href="sponsors">Sponsors</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Overview -->
+    <section id="overview" class="wrapper cta">
+        <div class="inner">
+            <section>
+                <h2> What we're looking for with this challenge</h2>
+                <p>
+                    The most important thing for becoming a new member on this team isn't prior ability, you don't have to have to be a coding
+                    wizard! You just have to be willing to pick up the skills necessary when presented with a problem.
+                    </br>
+                    </br>
+                    The challenges have been created accordingly. With enough perserverance, you should be able to complete them with only basic
+                    programming experience.
+                </p>
+            </section>
+            <header class="major align-center">
+                </br>
+                </br>
+                <h3 class="align-center">Please complete this challenge before: </h3>
+                <h2 class="align-center">September 30 2018</h2>
+
+                <h3>If you are unable to complete the challenge by the deadline, you can re-apply again in January.</h3>
+
+            </header>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <section id="main" class="wrapper sidebar right">
+        <div class="inner">
+
+            <!-- Content -->
+            <div class="content">
+                <h2>Challenge 1: Getting Set Up</h2>
+                <p>
+                    All of our development is done on Linux, more specifically Ubuntu. So, your first challenge is to get Ubuntu and our software
+                    stack up and running. </br>We've written some instructions to help you along, which
+                    can be found in our <a href="https://github.com/UBC-Snowbots/IGVC-2017#installation-and-setup">github repository</a>.
+                </p>
+
+                <blockquote>
+                    <b>Note:</b> If you can complete the challenges through something other then a native Ubuntu install,
+                    such as through a VM or other Linux distro, that's fine too, but we're not going to offer any help getting
+                    non-native Ubuntu setup's running.
+                </blockquote>
+
+                <h2>Challenge 2: TurtleSim Sine Wave</h2>
+                <p>
+                    OK, for this challenge, you'll need some pretty advanced mathematical skills. We're talking basic knowledge of what a sine
+                    function is... and that's about it. Seriously though, you don't need to know any advanced maths to join
+                    this team. Like I said in the intro, we're looking for people willing to learn
+                </p>
+
+                <p>
+                    <b>As such, your challenge is to have <a href="http://wiki.ros.org/turtlesim">turtlesim</a> draw out a sine wave.</b>
+                </p>
+                <p>
+                    Since the build system for <a href="http://wiki.ros.org/">ROS</a> can be kinda complicated, we've provided
+                    you most of the framework for what you'll need.
+                </p>
+                <p>
+                    In <code>~/IGVC-2017/src/challenge/src/solution.cpp</code> you'll find a skeleton project, with a main
+                    function and a while loop, alongside a bunch of <a href="#Resources">resources down below</a>. You don't
+                    have to use this skeleton project, but we'd recommend it. You should be aiming for a final result that
+                    looks something like this:
+                </p>
+
+                <img src="images/turtlesim-sine-wave-solution.gif"></img>
+
+                <blockquote>
+                    <b>Note:</b> Please don't just use the keyboard controls to draw this. Yes. We thought of that. As pretty
+                    as I'm sure yours is, we're more concerned with your code!
+                </blockquote>
+
+                <blockquote>
+                    <b>Note 2:</b> You can also write your solution in python get started
+                    <a href="http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber(python)">here</a>, but the resources
+                    below are C++ focused, and that's the language we'd prefer you use.
+                </blockquote>
+
+
+
+                <p>
+                    <b>
+                        We'd suggest you start by understanding how ROS works <a href="http://robohub.org/ros-101-intro-to-the-robot-operating-system/">here</a>, 
+                        then walking through the <a href="http://wiki.ros.org/ROS/Tutorials">ROS Tutorials</a> (at least all of section 1.1)
+                    </b>
+                </p>
+                <p>
+                    We've done a lot of this stuff already, but it's important that you at least understand it. In particular, <b>#5-6</b>,
+                    <b>#11</b>, and <b>#13</b> are important for this challenge. After that, you should be pretty much ready
+                    to start! To run the skeleton project we've provided, first source the project by running:
+                </p>
+
+                <p><code>$ cd ~/IGVC-2017 && source devel/setup.sh</code></p>
+                <p>then run</p>
+                <p><code>$ rosrun challenge solution</code></p>
+
+                <p>
+                    While you're working, we'd suggest you have the
+
+                    <a href="http://wiki.ros.org/turtlesim">turtlesim reference</a> open (mostly for <b>2.1.1</b> and <b>2.1.2</b>).
+                    It also contains some video tutorials, which may be of use. Make sure to take a look at the references
+                    for:
+                    <ul>
+                        <li>
+                            <a href="http://docs.ros.org/api/geometry_msgs/html/msg/Twist.html">geometry_msgs/Twist</a> (The
+                            command you send to the turtlebot)
+                        </li>
+                        <li>
+                            <a href="http://docs.ros.org/api/turtlesim/html/msg/Pose.html">turtlesim/Pose</a> (what the turtlebot
+                            is sending you).
+                        </li>
+                    </ul>
+                </p>
+
+                <blockquote>
+                    <b>Note: </b> You might however, not have to use the <a href="http://docs.ros.org/api/turtlesim/html/msg/Pose.html">turtlesim/Pose</a>,
+                    as there are several ways to solve this problem.
+                </blockquote>
+
+                <h2> Bonus: Make The Turtle Do Something Else</h2>
+                <p>
+                    The title sums this one up pretty nicely. You don't have to do this challenge, if you've gotten to this point, you've already
+                    done pretty well; but we encourage people to try things out and bring it to the interview, it helps us
+                    know how familiar you are with our system.
+                </p>
+
+                <h2> Super Bonus: Testing</h2>
+                <p>
+                    This one's a fair bit harder, than the previous ones, so don't worry if you don't get it.
+                </p>
+                <p>
+                    For this, we want you to re-write the <b>Challenge</b> package into the non-simple configuration specified
+                    in the <b>README</b> (the one with testing) and write (and run) some unit tests for your solution!
+                </p>
+
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <section>
+                    <h3>Done with the challenge?</h3>
+                    <p>Schedule an interview by emailing us and we will arrange a timeslot for you.</p>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="mailto:snowbots.ubc@gmail.com" class="button big">Email us</a></li>
+                        </ul>
+                    </footer>
+                </section>
+                <hr>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="content">
+            <div class="inner">
+
+                <section class="about">
+                    <h2>Stay connected with us</h2>
+                    <hr/>
+                    <p>
+                        Follow us on social media to learn more about our team's progress and future events. Send us an email if you have any questions
+                        or want to get involved!
+                    </p>
+                    <ul class="icons">
+                        <li class="icon">
+                            <a class="icon fa-facebook-square" href="https://www.facebook.com/UBC.Snowbots"></a>
+                        </li>
+                        <li>
+                            <a class="icon fa-instagram" href="https://www.instagram.com/ubcsnowbots"></a>
+                        </li>
+                        <li>
+                            <a class="icon fa-github" href="https://github.com/UBC-Snowbots/"></a>
+                        </li>
+                        <li>
+                            <a class="icon fa-envelope-o" href="mailto:snowbots.ubc@gmail.com"></a>
+                        </li>
+                    </ul>
+                    <p class="copyright">&copy; UBC Snowbots 2017</p>
+                </section>
+
+                <ul class="icons bulleted">
+                    <li class="icon fa-map-marker">
+                        <h3>Address</h3>
+                        <p>Wayne and William White Engineering Design Centre<br /> 2345 East Mall<br /> Vancouver, BC <br />V6T
+                            1Z4
+                        </p>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
