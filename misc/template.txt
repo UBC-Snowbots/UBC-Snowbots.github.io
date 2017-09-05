@@ -1,5 +1,0 @@
-<li>
-	<img src="img/roster/$FIRST_$LAST.JPG" alt="$FIRST $LAST"/>
-	<h4>$FIRST $LAST</h4>
-	<p>$TEAM</p>
-</li>
