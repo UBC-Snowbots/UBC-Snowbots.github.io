@@ -3938,6 +3938,26 @@
 			display: none;
 		}
 
+			#header .navPanelToggle:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			#header .navPanelToggle:before {
+				content: '\f0c9';
+				width: 3em;
+				height: 3em;
+				display: block;
+				position: absolute;
+				right: 0;
+				top: 0;
+				text-align: center;
+			}
+
 		#header.reveal {
 			height: 65px;
 			-moz-animation: reveal-header 0.5s ease;
