@@ -4837,3 +4837,17 @@ ul.sponsors{
 		.team-member li a span:hover{
 			color: rgba(47,55,63, 0.8);
 		}
+
+.wrapper.cta > .inner > .inner-col-align {
+	width: 100%;
+}
+
+	.wrapper.cta > .inner > .inner-col-align ul{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+		.wrapper.cta > .inner > .inner-col-align ul li{
+			margin: 0px;
+		}
