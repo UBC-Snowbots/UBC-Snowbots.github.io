@@ -1402,7 +1402,7 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 480px;
+			min-width: 480px; /* Not supporting any smaller width due to image scaling issues */
 		}
 
 	}
@@ -3642,12 +3642,10 @@
 				.wrapper.cta > .inner > * {
 					padding-left: 1.5em;
 					-ms-flex: auto;
-					/*width: 50%;*/
 				}
 
 				.wrapper.cta > .inner > :first-child {
 					padding-left: 0;
-					/*width: 50%;*/
 				}
 
 			body.is-mobile .wrapper.cta {
@@ -3823,7 +3821,7 @@
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 1;:
 		}
 	}
 
@@ -4745,8 +4743,9 @@ ul.sponsors{
 
 /*-----TEAM ROSTER-----*/
 
-.team-lead{
-	display:flex;
+ul.team-lead {
+	flex: 0 0 auto;
+	display: flex;
 }
 
 .team-lead li{
@@ -4844,11 +4843,6 @@ ul.sponsors{
 
 .wrapper.cta > .inner > :first-child {
 	flex: 1 1 auto;
-}
-
-.wrapper.cta > .inner > ul.team-lead {
-	flex: 0 0 auto;
-	display: flex;
 }
 
 .wrapper.cta > .inner.inner-split > * {
