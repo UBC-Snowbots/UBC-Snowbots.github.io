@@ -1402,7 +1402,7 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 320px;
+			min-width: 480px;
 		}
 
 	}
@@ -3642,12 +3642,12 @@
 				.wrapper.cta > .inner > * {
 					padding-left: 1.5em;
 					-ms-flex: auto;
-					width: 50%;
+					/*width: 50%;*/
 				}
 
 				.wrapper.cta > .inner > :first-child {
 					padding-left: 0;
-					width: 50%;
+					/*width: 50%;*/
 				}
 
 			body.is-mobile .wrapper.cta {
@@ -3848,6 +3848,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
+		min-width: 480px;
 		z-index: 10000;
 	}
 
@@ -4744,6 +4745,10 @@ ul.sponsors{
 
 /*-----TEAM ROSTER-----*/
 
+.team-lead{
+	display:flex;
+}
+
 .team-lead li{
 	width: 12em;
 	margin: 0em 2em;
@@ -4755,7 +4760,6 @@ ul.sponsors{
 	text-align: center;
 	background: transparent;
 	color:#EEEEEE;
-	float: right;
 }
 
 	.team-lead li:first-child{
@@ -4838,16 +4842,15 @@ ul.sponsors{
 			color: rgba(47,55,63, 0.8);
 		}
 
-.wrapper.cta > .inner > .inner-col-align {
-	width: 100%;
+.wrapper.cta > .inner > :first-child {
+	flex: 1 1 auto;
 }
 
-	.wrapper.cta > .inner > .inner-col-align ul{
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-	}
+.wrapper.cta > .inner > ul.team-lead {
+	flex: 0 0 auto;
+	display: flex;
+}
 
-		.wrapper.cta > .inner > .inner-col-align ul li{
-			margin: 0px;
-		}
+.wrapper.cta > .inner.inner-split > * {
+	max-width: 50%;
+}
