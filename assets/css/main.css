@@ -2309,6 +2309,9 @@
 					min-width: 12em;
 					line-height: 1.1em;
 				}
+.features li .icon.style3.fa-code-fork {
+}
+
 
 				ul.features li .sub_h3{
 					font-size: 0.85em;
@@ -3139,6 +3142,7 @@
 				background: rgba(255, 255, 255, 0.075);
 				border-color: rgba(255, 255, 255, 0.25);
 			}
+
 
 			.wrapper.style3 hr {
 				border-bottom-color: rgba(255, 255, 255, 0.25);
@@ -4067,17 +4071,17 @@
 
 /* Banner */
 	.igvc_team_banner {
-		background-image: url("../../images/team_igvc2017.jpg"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
-		background-image: url("../../images/team_igvc2017.jpg"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
-		background-image: url("../../images/team_igvc2017.jpg"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
-		background-image: url("../../images/team_igvc2017.jpg"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/snowbotstomarsshort.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/snowbotstomarsshort.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/snowbotstomarsshort.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/snowbotstomarsshort.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
 	}
 
 	.team_banner {
-		background-image: url("../../images/team_2018.jpg"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
-		background-image: url("../../images/team_2018.jpg"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
-		background-image: url("../../images/team_2018.jpg"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
-		background-image: url("../../images/team_2018.jpg"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/team_igvc2017short.jpg"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/team_igvc2017short.jpg"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/team_igvc2017short.jpg"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
+		background-image: url("../../images/team_igvc2017short.jpg"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("images/overlay.png");
 	}
 
 	.sponsor_banner {
